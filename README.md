@@ -11,7 +11,7 @@ example .gif of the generation process:
     <img style="float: left;" src="examples/gifs/035_.gif?raw=true" width="200" height="200" alt="Island Generation Process">
 </div>
 
-This generates islands shapes throught the alpha channel of a bitmap. The results can be seen in the following images:
+This generates islands shapes through the alpha channel of a bitmap. The results can be seen in the following images:
 
 <div style="display: inline-block">
   <img style="float: left;" src="examples/000_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
