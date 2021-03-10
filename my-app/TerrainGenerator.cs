@@ -17,7 +17,15 @@ namespace GeneratorApp
     {
       Console.WriteLine("Do you want to see the whole process? (Y/N):");
       string showcase = Console.ReadLine();
+      bool continuous_save = false;
+      if (showcase.ToUpper() == "Y")
+      {
+        Console.WriteLine("Do you want to save the whole process? (Y/N):");
+        string continuous_save_text = Console.ReadLine();
+        if (continuous_save_text.ToUpper() == "Y") { continuous_save = true; }
+      }
       TerrainGenerator tg = new TerrainGenerator();
+      tg.continuous_save = continuous_save;
       Form form = new Form();
       form.Width = 400;
       form.Height = 400;
@@ -44,6 +52,7 @@ namespace GeneratorApp
           if (repeat.ToUpper() == "Y")
           {
             tg = new TerrainGenerator();
+            tg.continuous_save = continuous_save;
             if (showcase.ToUpper() == "Y")  
             { 
               tg.showcase = true; 
@@ -65,6 +74,7 @@ namespace GeneratorApp
       public int seed = 42;
       public bool showcase = false;
       public bool _save = true;
+      public bool continuous_save = false;
       public bool finished = false;
       public int auxValue = 0,
       generation_phase = 0,
@@ -545,32 +555,35 @@ namespace GeneratorApp
         void Showcase()
         {
           Bitmap bmp = new Bitmap(size,size);
+          Bitmap bmp_to_save = new Bitmap(size,size);
           for (int i = 0; i<size; i++) { for (int j = 0; j<size; j++) {
             Color col = Color.FromArgb(alphas[j,i],0,0,0);
             bmp.SetPixel(i,j, col);
+            bmp_to_save.SetPixel(i,j, col);
           }}
-          // Here - change the image in an open window
           form.BackgroundImage = bmp;
           form.BackgroundImageLayout = ImageLayout.Stretch;
 
-          // int n = 0;
-          
-          // string path = Directory.GetCurrentDirectory()+"/Data/Saved/";
-          // Directory.CreateDirectory(@path);
-          // path += "TG.txt";
+          if (continuous_save) {
+            int n = 0;
+            
+            string path = Directory.GetCurrentDirectory()+"/Data/Saved/";
+            Directory.CreateDirectory(@path);
+            path += "TG.txt";
 
-          // if (File.Exists(path)) 
-          // {
-          //   string dataRead = File.ReadAllText(path);
-          //   n = int.Parse(dataRead);
-          // }
-          // if (!_save) {
-          //   n--;
-          // }
-          // path = Directory.GetCurrentDirectory() + "/Data/Saved/_png/"+n.ToString("D3")+"/";
-          // Directory.CreateDirectory(@path);
-          // path += updateCount.ToString("D4")+"_.png";
-          // bmp.Save(path, System.Drawing.Imaging.ImageFormat.Png);
+            if (File.Exists(path)) 
+            {
+              string dataRead = File.ReadAllText(path);
+              n = int.Parse(dataRead);
+            }
+            if (!_save) {
+              n--;
+            }
+            path = Directory.GetCurrentDirectory() + "/Data/Saved/_png/"+n.ToString("D3")+"/";
+            Directory.CreateDirectory(@path);
+            path += updateCount.ToString("D4")+"_.png";
+            bmp_to_save.Save(path, System.Drawing.Imaging.ImageFormat.Png);
+          }
         }
 
         void finalCountdown()
