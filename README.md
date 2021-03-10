@@ -6,43 +6,48 @@ It can be compiled with .net sdk 5 using ``dotnet build`` int the my-app folder 
 It builds a command line application that opens up a window showing the generation process if wanted.
 
 example .gif of generation process:
-<div>
-    <img style="float: right;" src="examples/gifs/032_.gif?raw=true" width="200" height="200" alt="Island Generation Process">
+
+<div style="display: inline-block">
+    <img style="float: left;" src="examples/gifs/035_.gif?raw=true" width="200" height="200" alt="Island Generation Process">
 </div>
 
 This generates islands shapes throught the alpha channel of a bitmap. The results can be seen in the following images:
 
-<div>
-  <img style="float: right;" src="examples/000_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/001_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/002_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/003_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/004_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/005_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/006_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/007_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/008_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/009_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/010_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/011_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/012_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/013_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/014_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/015_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/016_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/017_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/018_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/019_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/020_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/021_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/022_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/023_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/024_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/025_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/026_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/027_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/028_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/029_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/030_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
-  <img style="float: right;" src="examples/031_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+<div style="display: inline-block">
+  <img style="float: left;" src="examples/000_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/001_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/002_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/003_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/004_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/005_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/006_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/007_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/008_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/009_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/010_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/011_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/012_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/013_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/014_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/015_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/016_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/017_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/018_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/019_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/020_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/021_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/022_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/023_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/024_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/025_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/026_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/027_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/028_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/029_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/030_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/031_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/032_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/033_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/034_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
+  <img style="float: left;" src="examples/035_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
 </div>
