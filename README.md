@@ -1,5 +1,10 @@
 # Island Shape Generator
 
+This was coded with C# initially for Unity3D and then adapted for C#.net due to low dependency on Unity. 
+It can be compiled with .net sdk 5 using ``dotnet build`` int the my-app folder throught the command line.
+
+This generates islands shapes throught the alpha channel of a bitmap. The results can be seen in the following images:
+
 <div>
   <img style="float: right;" src="examples/000_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
   <img style="float: right;" src="examples/001_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
