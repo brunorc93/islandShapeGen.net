@@ -5,7 +5,7 @@ It can be compiled with .net sdk 5 using ``dotnet build`` int the my-app folder 
 
 It builds a command line application that opens up a window showing the generation process if wanted.
 
-example .gif of generation process:
+example .gif of the generation process:
 
 <div style="display: inline-block">
     <img style="float: left;" src="examples/gifs/035_.gif?raw=true" width="200" height="200" alt="Island Generation Process">
