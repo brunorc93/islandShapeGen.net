@@ -1,7 +1,7 @@
 # Island Shape Generator
 
 This was coded with C# initially for Unity3D and then adapted for C#.net due to low dependency on Unity. 
-It can be compiled with .net sdk 5 using ``dotnet build`` int the my-app folder throught the command line.
+It can be compiled with .net sdk 5 using ``dotnet build`` in the my-app folder throught the command line.
 
 It builds a command line application that opens up a window showing the generation process if wanted.
 
