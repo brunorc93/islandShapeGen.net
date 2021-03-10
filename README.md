@@ -3,6 +3,13 @@
 This was coded with C# initially for Unity3D and then adapted for C#.net due to low dependency on Unity. 
 It can be compiled with .net sdk 5 using ``dotnet build`` int the my-app folder throught the command line.
 
+It builds a command line application that opens up a window showing the generation process if wanted.
+
+example .gif of generation process:
+<div>
+    <img style="float: right;" src="examples/gifs/032_.gif?raw=true" width="200" height="200" alt="Island Generation Process">
+</div>
+
 This generates islands shapes throught the alpha channel of a bitmap. The results can be seen in the following images:
 
 <div>
