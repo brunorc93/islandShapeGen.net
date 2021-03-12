@@ -18,7 +18,7 @@ This is one module of a series used on Unity3D to generate island meshes. Other 
 (more links will be added as soon as the modules are ported onto C#.net for ease of use).  
 The full Unity Project can be followed [here](empty repo)  
 
-This generates islands shapes through the alpha channel of a bitmap. The results can be seen in the following images:
+This module generates islands shapes through the alpha channel of a bitmap. The results can be seen in the following images:
 
 <div style="display: inline-block">
   <img style="float: left;" src="examples/000_.png?raw=true" width="100" height="100" alt="Example of generated island shape">
