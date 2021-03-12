@@ -18,7 +18,7 @@ This is one module of a series used on Unity3D to generate island meshes. Other 
 
 > (more links will be added as soon as the modules are ported onto C#.net for ease of use).  
 
-The full Unity Project can be followed [here](empty repo)  
+The full Unity Project can be followed [here](https://github.com/brunorc93/procgen)  
 
 This module generates islands shapes through the alpha channel of a bitmap. The results can be seen in the following images:
 
