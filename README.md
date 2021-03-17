@@ -11,6 +11,7 @@ example .gif of the generation process:
     <img style="float: left;" src="examples/gifs/035_.gif?raw=true" width="200" height="200" alt="Island Generation Process">
 </div>  
   
+---------------------------------------------------------------------------
 This is one module of a series used on Unity3D to generate island meshes. Other modules adapted for C#.net can be seen in the following links:
 > [Biome Growth - next](https://github.com/brunorc93/BiomeGrowth.net)  
 > [Noise](https://github.com/brunorc93/noise)  
@@ -19,6 +20,7 @@ This is one module of a series used on Unity3D to generate island meshes. Other 
 > (more links will be added as soon as the modules are ported onto C#.net).  
 
 The full Unity Project can be followed [here](https://github.com/brunorc93/procgen)  
+---------------------------------------------------------------------------
 
 This module generates islands shapes through the alpha channel of a bitmap. The results can be seen in the following images:
 
