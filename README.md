@@ -9,7 +9,9 @@ example .gif of the generation process:
 
 <div style="display: inline-block">
     <img style="float: left;" src="examples/gifs/035_.gif?raw=true" width="200" height="200" alt="Island Generation Process">
-</div>  
+</div>
+
+<br/>  
   
 ---------------------------------------------------------------------------
 This is one module of a series used on Unity3D to generate island meshes. Other modules adapted for C#.net can be seen in the following links:
