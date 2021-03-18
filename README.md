@@ -15,7 +15,7 @@ example .gif of the generation process:
 This is one module of a series used on Unity3D to generate island meshes. Other modules adapted for C#.net can be seen in the following links:
 * [Biome Growth - next](https://github.com/brunorc93/BiomeGrowth.net)  
 * [Noise](https://github.com/brunorc93/noise)  
-* [empty repo](empty repo)  
+* [HQ2nxNoAA](https://github.com/brunorc93/HQnx-noAA.net)  
 
 > (more links will be added as soon as the modules are ported onto C#.net).  
 
