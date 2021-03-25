@@ -16,9 +16,10 @@ This is one module of a series used on Unity3D to generate island meshes. Other 
 * [Biome Growth - next](https://github.com/brunorc93/BiomeGrowth.net)  
 * [Noise](https://github.com/brunorc93/noise)  
 * [HQ2nxNoAA](https://github.com/brunorc93/HQnx-noAA.net)  
+The following modules use Unity
 * [Generator preview - minimap](https://github.com/brunorc93/minimap)
 
-> (more links will be added as soon as the modules are ported onto C#.net).  
+> (more links will be added as soon as the modules are ported onto C#.net or made presentable in Unity).  
 
 The full Unity Project can be followed [here](https://github.com/brunorc93/procgen)  
 
